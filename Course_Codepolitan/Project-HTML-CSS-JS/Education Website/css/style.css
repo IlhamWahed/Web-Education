@@ -604,6 +604,57 @@ textarea:focus {
 }
 /*contact section ends*/
 
+/*footer starts*/
+.footer {
+  text-align: center;
+}
+
+.footer .icons {
+  padding: 3rem 0;
+}
+
+.footer .icons a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.2rem;
+  text-align: center;
+  border: 0.3rem solid var(--violet);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--violet);
+  font-size: 2rem;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  margin: 0 1rem;
+}
+
+.footer .icons a:hover {
+  color: #fff;
+  background: var(--pink);
+  border-color: var(--pink);
+}
+
+.footer .credit {
+  font-size: 1.5rem;
+  border-top: 0.1rem solid #999;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  color: #666;
+  width: 90%;
+  padding: 1rem 0;
+}
+
+.footer .credit span {
+  color: var(--pink);
+}
+/*footer ends*/
+
 /*Media Queris*/
 @media (max-width: 768px) {
   html {
